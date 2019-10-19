@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import styled, { withTheme } from 'styled-components';
 
 const ProjectsFilter = (props) => {
@@ -26,16 +26,25 @@ const ProjectsFilter = (props) => {
     if (updatedProjects.length > 0) props.setProjects(updatedProjects)
   }
 
+  const [visible, setVisible] = useState(false)
+
+  const handleClick = () => {
+    setVisible(!visible)
+  }
+
   return (
-    <FilterWrapper>
-      <button onClick={() => { setFilters([]); props.handleResetProjects() }}>Clear Filter</button>
-      {filterList.map(filter => {
-        return <button
-          key={filter}
-          onClick={() => toggleFilter(filter)}
-          className={filters.includes(filter) ? "selected" : null}
-        >{filter}</button>
-      })}
+    <FilterWrapper >
+      <button onClick={handleClick}>{visible ? 'Filters' : 'Filters'}</button>
+      <div className={visible ? "panel active" : "panel inActive"}>
+        <button onClick={() => { setFilters([]); props.handleResetProjects() }}>Clear Filter</button>
+        {filterList.map(filter => {
+          return <button
+            key={filter}
+            onClick={() => toggleFilter(filter)}
+            className={filters.includes(filter) ? "selected" : null}
+          >{filter}</button>
+        })}
+      </div>
     </FilterWrapper>
   )
 }
@@ -49,6 +58,38 @@ align-items:center;
 flex-wrap:wrap;
 margin-top: 80px;
 padding: 0 5%;
+
+
+
+.panel {
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+height: 0px;
+
+}
+
+.active {
+  visibility:visible;
+    transition: all .5s;
+    @media (max-width: 700px) {
+      height: 330px;
+    }
+    @media (min-width: 701px) {
+      height: 125px;
+    }
+}
+
+.inActive {
+    visibility: collapse;
+    height: 0px;
+    transition: all .5s;
+}
+
+
+
 
 @media (max-width: 700px) {
   margin-top: 110px;
