@@ -1,23 +1,27 @@
-export default [{
-    "name": "Calculator App",
-    "created_at": "2019-07-11T22:05:16Z",
-    "url": "https://github.com/alonzo245/android-calc",
-    "description": "Just another calculator written with Kotlin for Android Os.",
-    "technologies": ["kotlin", "android"]
+export default [
+  {
+    "name": "ReactJS Spring Animation",
+    "created_at": "2019-09-10T07:04:48Z",
+    "language": "JavaScript",
+    "url": "https://github.com/alonzo245/react-spring-animation",
+    "description": "Demonstrate animations with react.",
+    "technologies": ["javascript", "reactjs", "springAmin", "html5", "css3"]
   },
   {
-    "name": "Angular Admin Dashboard",
-    "created_at": "2019-04-06T12:36:44Z",
-    "url": "https://github.com/alonzo245/angular-dashboard",
-    "description": "Demo of graphical Admin with charts and progress bars fully responsive made with Angular 8.0",
-    "technologies": ["javascript", "angular", "html5", "sass", "css3"]
+    "name": "ReactJS Pagination",
+    "created_at": "2019-09-08T15:56:40Z",
+    "language": "JavaScript",
+    "url": "https://github.com/alonzo245/reactjs-pagination",
+    "description": "Handy and quick component to implement pagination in your ReactJS app.App-link",
+    "technologies": ["javascript", "reactjs", "html5", "css3"]
   },
   {
-    "name": "Python + Django Website",
-    "created_at": "2019-09-05T04:35:48Z",
-    "url": "https://github.com/alonzo245/django-python",
-    "description": "Easy peasy Poll admin and web app demonstrate Django abillities with the web.",
-    "technologies": ["python", "django", "html5", "css3"]
+    "name": "TODO App in ReactJS TypeScript Styled",
+    "created_at": "2019-09-13T18:39:25Z",
+    "language": "TypeScript",
+    "url": "https://github.com/alonzo245/reactjs-ts-styled",
+    "description": "Just another TODO App using latest web most popular libraries",
+    "technologies": ["javascript", "styled", "typescript", "lodash"]
   },
   {
     "name": "ExpressJS TypeScript Boilerplate",
@@ -112,6 +116,27 @@ export default [{
     "technologies": ["javascript"]
   },
   {
+    "name": "Calculator App",
+    "created_at": "2019-07-11T22:05:16Z",
+    "url": "https://github.com/alonzo245/android-calc",
+    "description": "Just another calculator written with Kotlin for Android Os.",
+    "technologies": ["kotlin", "android"]
+  },
+  {
+    "name": "Angular Admin Dashboard",
+    "created_at": "2019-04-06T12:36:44Z",
+    "url": "https://github.com/alonzo245/angular-dashboard",
+    "description": "Demo of graphical Admin with charts and progress bars fully responsive made with Angular 8.0",
+    "technologies": ["javascript", "angular", "html5", "sass", "css3"]
+  },
+  {
+    "name": "Python + Django Website",
+    "created_at": "2019-09-05T04:35:48Z",
+    "url": "https://github.com/alonzo245/django-python",
+    "description": "Easy peasy Poll admin and web app demonstrate Django abillities with the web.",
+    "technologies": ["python", "django", "html5", "css3"]
+  },
+  {
     "name": "nodejs_youflix_app",
     "created_at": "2018-12-14T12:11:45Z",
     "language": "JavaScript",
@@ -135,31 +160,6 @@ export default [{
     "description": "Manage your life goals in an Android app.",
     "technologies": ["android", "reactnative"]
   },
-  {
-    "name": "ReactJS Spring Animation",
-    "created_at": "2019-09-10T07:04:48Z",
-    "language": "JavaScript",
-    "url": "https://github.com/alonzo245/react-spring-animation",
-    "description": "Demonstrate animations with react.",
-    "technologies": ["javascript", "reactjs", "springAmin", "html5", "css3"]
-  },
-  {
-    "name": "ReactJS Pagination",
-    "created_at": "2019-09-08T15:56:40Z",
-    "language": "JavaScript",
-    "url": "https://github.com/alonzo245/reactjs-pagination",
-    "description": "Handy and quick component to implement pagination in your ReactJS app.App-link",
-    "technologies": ["javascript", "reactjs", "html5", "css3"]
-  },
-  {
-    "name": "TODO App in ReactJS TypeScript Styled",
-    "created_at": "2019-09-13T18:39:25Z",
-    "language": "TypeScript",
-    "url": "https://github.com/alonzo245/reactjs-ts-styled",
-    "description": "Just another TODO App using latest web most popular libraries",
-    "technologies": ["javascript", "styled", "typescript", "lodash"]
-  },
-
   {
     "name": "Piano in ReactJS",
     "created_at": "2019-01-02T19:37:14Z",

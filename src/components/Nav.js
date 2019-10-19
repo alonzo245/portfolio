@@ -25,6 +25,11 @@ const Nav = styled.nav`
     padding: 0.45rem;
     margin: 0 0.25rem;
 
+    .smallText{
+        font-size:0.9rem;
+        font-weight:normal;
+      }
+
     &:hover {
       color: ${props => props.primaryColor};
     }
@@ -40,7 +45,13 @@ const Nav = styled.nav`
     }
 
     h1 {
-      margin-bottom: 1rem;
+      margin-bottom: 0.4rem;
+      height: 70px;
+      
+      .smallText{
+        display:block;
+        font-size:0.9rem;
+      }
     }
   }
 `;
@@ -49,7 +60,7 @@ const Navbar = (props) => {
     return (
         <Nav className="bg-dark">
             <h1>
-                <Link to="/portfolio"> <i className="fas fa-code" aria-hidden="true"></i> Alon Alush</Link>
+                <Link to="/portfolio"> <i className="fas fa-code" aria-hidden="true"></i> Alon Alush <span className="smallText">Full Stack Web Developer</span></Link>
             </h1>
             <ul>
                 {/* <li><Link to="about">About</Link></li>

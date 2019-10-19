@@ -65,7 +65,7 @@ button{
   height: 36px;
   
   &.selected{
-    background-color:#3a4554;
+    background-color:#afafaf;
   }
   &:hover{
     background-color:#fff;
