@@ -1,5 +1,42 @@
 export default [
   {
+    "name": "CDN ADMIN BE",
+    "created_at": "2019-01-06T20:36:58Z",
+    "language": "JavaScript",
+    "url": "https://github.com/alonzo245/uploads_api",
+    "description": "Backend Admin for managing CDN files built with NodeJS, Express and JWT.",
+    "technologies": ["javascript", "nodejs", "jwt", "webpack", "expressjs", "mongodb"]
+  },
+  {
+    "name": "CDN ADMIN FE",
+    "created_at": "2019-01-07T17:41:33Z",
+    "language": "JavaScript",
+    "url": "https://github.com/alonzo245/uploads_app",
+    "description": "Frontend ReactJS Admin for managing CDN files with login auth system.",
+    "technologies": ["javascript", "reactjs", "redux", "html5", "css3", "sass", "jwt"]
+  },
+  {
+    "name": "Gatsby + Firebase ",
+    "created_at": "2019-07-28T11:17:54Z",
+    "url": "https://github.com/alonzo245/gatsby-db",
+    "description": "Amazing and easy way to connect to firestore and generating blog pages.",
+    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
+  },
+  {
+    "name": "Gatsby Static Blog",
+    "created_at": "2019-06-26T19:35:51Z",
+    "url": "https://github.com/alonzo245/gatsby-static",
+    "description": "Great blog made with SSG tech.",
+    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
+  },
+  {
+    "name": "Gatsby + Wordpress CMS",
+    "created_at": "2019-06-23T20:29:27Z",
+    "url": "https://github.com/alonzo245/gatsby-wordpress",
+    "description": "Using Wordpress CMS for managing static Site with GatsbyJS.",
+    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
+  },
+  {
     "name": "ReactJS Spring Animation",
     "created_at": "2019-09-10T07:04:48Z",
     "language": "JavaScript",
@@ -29,27 +66,6 @@ export default [
     "url": "https://github.com/alonzo245/express-typescript-template",
     "description": "Great for spinning quick APIs.",
     "technologies": ["javascript", "nodejs", "typescript", "expressjs"]
-  },
-  {
-    "name": "Gatsby + Firebase ",
-    "created_at": "2019-07-28T11:17:54Z",
-    "url": "https://github.com/alonzo245/gatsby-db",
-    "description": "Amazing and easy way to connect to firestore and generating blog pages.",
-    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
-  },
-  {
-    "name": "Gatsby Static Blog",
-    "created_at": "2019-06-26T19:35:51Z",
-    "url": "https://github.com/alonzo245/gatsby-static",
-    "description": "Great blog made with SSG tech.",
-    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
-  },
-  {
-    "name": "Gatsby + Wordpress CMS",
-    "created_at": "2019-06-23T20:29:27Z",
-    "url": "https://github.com/alonzo245/gatsby-wordpress",
-    "description": "Using Wordpress CMS for managing static Site with GatsbyJS.",
-    "technologies": ["nodejs", "javascript", "gatsby", "graphql", "sass", "html5", "css3"]
   },
   {
     "name": "React Native Guess a Number App",
@@ -109,7 +125,7 @@ export default [
     "technologies": ["javascript", "nodejs", "ejs", "expressjs"]
   },
   {
-    "name": "nodejs_reactjs_storage_management",
+    "name": "NodeJS + ReactJS CDN Storage Managment",
     "created_at": "2019-01-13T21:32:31Z",
     "url": "https://github.com/alonzo245/nodejs_reactjs_storage_management",
     "description": "",
@@ -137,7 +153,7 @@ export default [
     "technologies": ["python", "django", "html5", "css3"]
   },
   {
-    "name": "nodejs_youflix_app",
+    "name": "NodeJS YouFlix App",
     "created_at": "2018-12-14T12:11:45Z",
     "language": "JavaScript",
     "url": "https://github.com/alonzo245/nodejs_youflix_app",
@@ -202,28 +218,5 @@ export default [
     "technologies": ["sass", "css3", "html5"]
 
   },
-  {
-    "name": "CDN ADMIN BE",
-    "created_at": "2019-01-06T20:36:58Z",
-    "language": "JavaScript",
-    "url": "https://github.com/alonzo245/uploads_api",
-    "description": "Backend Admin for managing CDN files built with NodeJS, Express and JWT.",
-    "technologies": ["javascript", "nodejs", "jwt", "webpack", "expressjs", "mongodb"]
-  },
-  {
-    "name": "CDN ADMIN FE",
-    "created_at": "2019-01-07T17:41:33Z",
-    "language": "JavaScript",
-    "url": "https://github.com/alonzo245/uploads_app",
-    "description": "Frontend ReactJS Admin for managing CDN files with login auth system.",
-    "technologies": ["javascript", "reactjs", "redux", "html5", "css3", "sass", "jwt"]
-  },
-  {
-    "name": "Portfolio Site",
-    "created_at": "2019-04-05T20:00:01Z",
-    "language": "JavaScript",
-    "url": "https://github.com/alonzo245/sass-html-dashboard",
-    "description": "",
-    "technologies": ["javascript"]
-  }
+
 ]

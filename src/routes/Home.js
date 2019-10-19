@@ -63,7 +63,7 @@ flex-flow:wrap;
 justify-content:center;
 position: relative;
 /* border: solid 1px #fff; */
-margin-top: 30px;
+margin-top: 10px;
 width: 100%;
 
 @media (max-width: 1024px)  {

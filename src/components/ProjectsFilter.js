@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import styled, { withTheme } from 'styled-components';
 
 const ProjectsFilter = (props) => {
@@ -22,15 +22,16 @@ const ProjectsFilter = (props) => {
       })
       return result;
     })
-    console.log(updatedProjects)
-    if(updatedProjects.length > 0) props.setProjects(updatedProjects)
+    // console.log(updatedProjects)
+    if (updatedProjects.length > 0) props.setProjects(updatedProjects)
   }
 
   return (
     <FilterWrapper>
-      <button onClick={()=> {setFilters([]); props.handleResetProjects()}}>Clear Filter</button>
+      <button onClick={() => { setFilters([]); props.handleResetProjects() }}>Clear Filter</button>
       {filterList.map(filter => {
-        return <button key={filter}
+        return <button
+          key={filter}
           onClick={() => toggleFilter(filter)}
           className={filters.includes(filter) ? "selected" : null}
         >{filter}</button>
@@ -46,8 +47,18 @@ flex-direction:row;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
-margin-top: 120px;
-padding: 0 10%;
+margin-top: 80px;
+padding: 0 5%;
+
+@media (max-width: 700px) {
+  margin-top: 110px;
+}
+@media (hover: none) {
+  button:hover {
+    background-color:#afafaf !important;
+    color: #1E242C !important;
+  }
+}
 
 button{
   background: #1E242C;
@@ -61,17 +72,19 @@ button{
   align-items:center;
   display:flex;
   justify-content:space-around;
-  margin: 5px ;
+  margin: 3px ;
   height: 36px;
   
   &.selected{
     background-color:#afafaf;
+    color: #1E242C;
   }
   &:hover{
     background-color:#fff;
     color:black;
   }
 }
+
 `;
 
 export default withTheme(ProjectsFilter);
