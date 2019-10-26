@@ -143,6 +143,7 @@ width: 100%;
     padding-bottom:5px;
 
     .btn{
+      width:100%;
       background: #1E242C;
       color: #fff;
       padding: 0.4rem 0.4rem;
@@ -153,7 +154,7 @@ width: 100%;
       transition: all 0.2s ease-in;
       align-items:center;
       display:flex;
-      justify-content:space-around;
+      justify-content:inherit;
       margin: 0px 5px 0px 5px ;
       height: 36px;
 
