@@ -81,10 +81,10 @@ label {
   transition: background-color 0.1s, color 0.1s;
 }
 
-label:hover {
+/* label:hover {
   background: #33CC00;
   color: #000;
-}
+} */
 
 .panel {
   transition: height .3s ease;
@@ -111,12 +111,12 @@ input:checked + .panel {
 @media (max-width: 700px) {
   margin-top: 110px;
 }
-@media (hover: none) {
+/* @media (hover: none) {
   button:hover {
     background-color:#afafaf !important;
     color: #1E242C !important;
   }
-}
+} */
 
 button, .button{
   background: #1E242C;
@@ -137,10 +137,10 @@ button, .button{
     background-color:#afafaf;
     color: #1E242C;
   }
-  &:hover{
+  /* &:hover{
     background-color:#fff;
     color:black;
-  }
+  } */
 }
 
 `;
