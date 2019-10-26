@@ -120,7 +120,7 @@ width: 100%;
     padding:5px;
     font-size:0.9rem;
     width:100%;
-    height: 50%;
+    height: 62%;
   }
 
   h4{

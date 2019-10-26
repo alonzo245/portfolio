@@ -34,14 +34,9 @@ const ProjectsFilter = (props) => {
 
   return (
     <FilterWrapper >
-
-      <label for="check" className="button">Filters</label>
-      <input id="check" type="checkbox" />
-
-      <div className="panel">
-        <button 
-        className="clearFilters"
-        onClick={() => { setFilters([]); props.handleResetProjects() }}>Clear Filter</button>
+      <button onClick={handleClick}>{visible ? 'Filters' : 'Filters'}</button>
+      <div className={visible ? "panel active" : "panel inActive"}>
+        <button onClick={() => { setFilters([]); props.handleResetProjects() }}>Clear Filter</button>
         {filterList.map(filter => {
           return <button
             key={filter}
@@ -61,52 +56,40 @@ flex-direction:row;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
-margin-top: 150px;
+margin-top: 80px;
 padding: 0 5%;
 
-/* 000000000000000 */
-input {
-  display: none;
-}
 
-label {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 20px;
-  border: 1px solid;
-  border-radius: 4px;
-  background: #336600;
-  color: #FFF;
-  font-family: arial;
-  transition: background-color 0.1s, color 0.1s;
-}
-
-label:hover {
-  background: #33CC00;
-  color: #000;
-}
 
 .panel {
-  transition: height .3s ease;
-  height: 0;
-  overflow: hidden;
-  max-width: 1100px;
-  margin-top: 10px;
-  display:flex;
+display:flex;
 flex-direction:row;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
+height: 0px;
+
 }
 
-input:checked + .panel {
-  height: fit-content;
+.active {
+  visibility:visible;
+    transition: all .5s;
+    @media (max-width: 700px) {
+      height: 330px;
+    }
+    @media (min-width: 701px) {
+      height: 125px;
+    }
 }
-/* 000000000000000 */
 
-.clearFilters{
-  background-color: #3a3a3c;
+.inActive {
+    visibility: collapse;
+    height: 0px;
+    transition: all .5s;
 }
+
+
+
 
 @media (max-width: 700px) {
   margin-top: 110px;
@@ -118,7 +101,7 @@ input:checked + .panel {
   }
 }
 
-button, .button{
+button{
   background: #1E242C;
   color: #fff;
   padding: 0.4rem 0.4rem;

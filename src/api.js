@@ -45,6 +45,14 @@ export default [
     "technologies": ["javascript", "reactjs", "springAmin", "html5", "css3"]
   },
   {
+    "name": "Simon Says JS Vanilla",
+    "created_at": "2019-09-10T07:04:48Z",
+    "language": "JavaScript",
+    "url": "https://github.com/alonzo245/simon-says-js-vanilla",
+    "description": "Fun Demo for playing the addictive memory game made with pure Javascript CSS and HTML5.",
+    "technologies": ["javascript", "html5", "css3"]
+  },
+  {
     "name": "ReactJS Pagination",
     "created_at": "2019-09-08T15:56:40Z",
     "language": "JavaScript",
