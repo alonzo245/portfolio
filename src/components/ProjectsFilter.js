@@ -61,8 +61,15 @@ flex-direction:row;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
-margin-top: 150px;
 padding: 0 5%;
+
+@media (max-width: 700px) {
+  margin-top: 150px;
+    }
+    @media (min-width: 701px) {
+      margin-top: 80px;
+    }
+
 
 /* 000000000000000 */
 input {

@@ -139,7 +139,7 @@ export default [
     "created_at": "2019-01-13T21:32:31Z",
     "url": "https://github.com/alonzo245/nodejs_reactjs_storage_management"+filter,
     "description": "E2E Web Application for storing files in a cloud.",
-    "technologies": ["javascript"]
+    "technologies": ["javascript", "nodejs", "expressjs", "jwt", "sass", "html5", "css3","reactjs", "redux"]
   },
   {
     "name": "Calculator App",
